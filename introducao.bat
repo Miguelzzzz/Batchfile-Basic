@@ -57,7 +57,7 @@ echo * 5. Sair                          *
 echo  ==================================
 
 rem Declarar uma variavel chamada "opcao" e receber o valor que o usuario digitar 
-set /p opcao= Escolha uma opcao: 
+set /p opcao = Escolha uma opcao: 
 echo ------------------------------
 
 rem Navegação por opções
@@ -96,7 +96,7 @@ cls
 echo ==================================
 echo *     Escaneamento de disco       *
 echo ==================================
-chkdsk c:
+rem chkdsk c:
 pause
 goto menu
 
